@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!---Slick Carousel--->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+	<!---Font-awsome--->
+	<script src="../js/font.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<!-----Custom-css-->
+	<title>Shoes, Sneaker, Clothes &amp; Clothing</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<link rel="stylesheet" href="../styles/customresponsive.css">
+</head>
+
+<body>
+
+	<!--Container-->
+	<div class="container pl-md-3 pr-md-3 pl-2 pr-2">
+	<div class="row mt-5">
+	<div class="col-lg-8 col-md-7 order-1 order-md-0">
+	<h2 class="f-24 f-bl mb-3">1. Shipping Address</h2>
+	
+	<div class="border p-3 row m-0 mb-3">
+	
+		<div class="col-md-5 col-6 p-0">
+			<p class="f-16 f-bl m-0">Rita De Cilva</p>
+			<p class="f-15 m-0">173 Nash Street</p>
+			<p class="f-15 m-0">Las Vegas Nevada 89101</p>
+		</div>
+		<div class=" col-lg-4 col-md-7 p-0 ml-auto text-md-right">
+		<button class="pl-3 col-12 col-md-0 pr-3 p-2 f-14 btn mt-2 mb-2 rounded btn-outline-darkblue text-uppercase font-weight-bold">Change Shipping Address</button>
+		</div>
+	</div>
+	<form class="row m-0">
+	<h2 class="f-18 f-bl border-bottom pb-2 col-12 p-0"><span class="">Add a new shipping address</span></h2>
+	<div class=" col-12 p-0 mb-2 pb-1">
+	<label for="country" class="f-14 m-0">Country</label>
+	<select class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-4" name="country" id="">
+		<option value="">Canada</option>
+		<option value="">Germany</option>
+		<option value="">Pakistan</option>
+		<option value="">Spain</option>
+		<option value="" selected>United Stated</option>
+	</select>
+	</div>
+	
+	<div class=" col-12 p-0 mb-2 pb-1">
+	<label for="name" class="f-14 m-0">First Name</label>
+	<input type="text" placeholder="First and last name" class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="">
+	</div>
+	<div class="col-12 p-0 mb-2 pb-1">
+	<label for="name" class="f-14 m-0">Address line 1</label>
+	<input type="text" placeholder="Street address, company, name, c/o" class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="">
+	</div>
+	<div class="col-12 p-0 mb-2 pb-1">
+	<label for="name" class="f-14 m-0">Address line 2</label>
+	<input type="text" placeholder="Apartment, suit, unit, building, floor, etc" class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-4" name="name" id="">
+	</div>
+	<div class="col-12 row p-0 m-0">
+	<div class=" mb-2 pb-1 pr-1 mr-1">
+	<label for="name" class="f-14 m-0 d-block">City</label>
+	<input type="text" placeholder="eg. Las Vegas" class="f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="">
+	</div>
+	<div class=" mb-2 pb-1 pr-1 mr-1">
+	<label for="name" class="f-14 m-0 d-block">State</label>
+	<input type="text" placeholder="eg. Nevada" class="f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="" style="width: 150px">
+	</div>
+	<div class=" mb-2 pb-1 pr-1 mr-1">
+	<label for="name" class="f-14 m-0 d-block">Zip</label>
+	<input type="text" placeholder="eg. 89101" class="f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="" style="width: 150px">
+	</div>
+	</div>
+	<div class="col-12 p-0">
+	<div class=" mb-2 pb-1">
+	<label for="name" class="f-14 m-0 d-block">Phone</label>
+	<input type="text" placeholder="Including area code" class="f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="name" id="" style="width: 210px">
+	</div>
+	</div>
+	<div class="col-12 p-0 pt-2 pb-">
+	<div class=" mb-2 pb-1 align-items-beseline">
+	<input type="checkbox" class="sc-2" checked><span class="f-15 pl-2"> Use this address for billing</span>
+	</div>
+	<div class=" mb-3">
+		<button class="pl-4 pr-4 p-2 f-14 btn mt-2 mb-2 rounded btn-darkblue text-uppercase font-weight-bold">Ship to this address</button>
+		</div>
+	</div>
+	
+	</form>
+	
+	<h2 class="f-24 f-bl mb-3">2. Payment Method</h2>
+	
+	<div class="border p-3 row m-0 mb-3">
+		<div class="col-md-5 col-6 p-0">
+		<div class="row align-items-center pl-2">
+		<input type="radio" class="sc-2">
+		<p class="f-16 m-0 pl-2 ml-1"> <span class="f-bl">Visa Card</span>&nbsp;<span class="f-13">Ending in 2143</span></p>
+		</div>
+			
+			<p class="f-15 m-0 pl-3"><span class="font-weight-bold">Name on Card : </span><span>Tita D Dorsey</span></p>
+			<p class="f-15 m-0 pl-3"><span class="font-weight-bold">Expires : </span><span>07/2023</span></p>
+
+		</div>
+		<div class=" col-lg-4 col-md-7 p-0 ml-auto text-md-right">
+		<button class="pl-3 col-12 col-md-0 pr-3 p-2 f-14 btn mt-2 mb-2 rounded btn-outline-darkblue text-uppercase font-weight-bold">Add a New Card</button>
+		</div>
+	</div>
+	<form class="row m-0">
+	
+	<div class=" col-12 p-0 mb-2 pb-1">
+	<label for="" class="f-14 m-0">Name on Card</label>
+	<input type="text" placeholder="" class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="" id="">
+	</div>
+	
+	<div class=" col-12 p-0 mb-2 pb-1">
+	<label for="" class="f-14 m-0">Card Number</label>
+	<input type="text" placeholder="" class="col-12 f-18 s-16 p-2 rounded border-bold pl-3 pr-3" name="" id="">
+	</div>
+	<div class="row">
+	<div class=" pl-3 p-0 mb-2 pb-1">
+	<label for="country" class="f-14 m-0">Month</label>
+	<select class="col-12 f-17 s-16 p-2 rounded border-bold pl-3 pr-4" name="country" id="">
+	<option value="" selected hidden>Month</option>
+		<option value="">01-Jan</option>
+		<option value="">02-Feb</option>
+		<option value="">03-March</option>
+		<option value="">04-Apr</option>
+		<option value="">05-May</option>
+		<option value="">06-June</option>
+		<option value="">07-July</option>
+		<option value="">08-Aug</option>
+		<option value="">09-Sept</option>
+		<option value="">10-Oct</option>
+		<option value="">11-Nov</option>
+		<option value="">12-Dec</option>
+	</select>
+	</div>
+	
+	<div class="pl-3  p-0 mb-2 pb-1">
+	<label for="country" class="f-14 m-0">Year</label>
+	<select class="col-12 f-17 s-16 p-2 rounded border-bold pl-3 pr-4" name="country" id="">
+		<option value="" selected hidden>Year</option>
+		<option value="">2021</option>
+		<option value="">2022</option>
+		<option value="">2023</option>
+		<option value="">2024</option>
+		<option value="">2025</option>
+		<option value="">2026</option>
+		<option value="">2027</option>
+		<option value="">2028</option>s
+		<option value="">2029</option>
+		<option value="">2030</option>
+	</select>
+	</div>
+	</div>
+	
+	<div class="col-12 p-0 pt-2 pb-">
+	<div class=" mb-2 pb-1 align-items-beseline">
+	<input type="checkbox" class="sc-2" checked><span class="f-15 pl-2"> Use as my default payment</span>
+	</div>
+	<div class=" mb-3">
+		<button class="pl-4 pr-4 p-2 f-14 btn mt-2 mb-2 rounded btn-darkblue text-uppercase font-weight-bold">Add this payment method</button>
+		</div>
+	</div>
+	
+	</form>
+	<h2 class="f-24 f-bl mb-3">3. Item Review and Shipping</h2>
+	<div class="col-12 row p-0 border m-0">
+						<div class="col-12 col-lg-7 p-0 rounded-0 order-1 order-lg-0">
+							
+							<!--inner cart-->
+							<div class="row m-0 rounded-0  mt-3 position-relative">
+								<div class="col-lg-12  row m-0 pl-md-3 border-bottom pr-0 pl-2" style="min-height: 170px">
+									<div class="row m-0 col-12 p-0">
+										<div class="col-3 product-img bg-white bg-remove row align-items-center m-0 pl-2 pr-2 mb-3" style="min-width: 111px">
+											<img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/81ZBbd9t39L._AC_SR500,500_.jpg" alt="">
+										</div>
+										<div class="col-8 p-0 f-14 row m-0">
+											<div class="col-12 pl-2 p-0">
+												<span class="d-block darkblue">Free People</span>
+												<a href="#" class="hover-blue f-bl">Clare Tree</a>
+
+												<div class="mt-1">
+													<span class="d-block">Color: Black</span>
+													<span class="d-block">Size: XS (Women's 0-2)</span>
+													<span class="d-block">Asin: B06XY5CYZW</span>
+												</div>
+												
+												<div class=" pt-2">
+									<span class="f-12  d-block text-secondary"><span class="text-dark f-bl f-13">Sale: </span><span class="greenish f-bl f-13">$38.00</span>&nbsp;<span class="">($165.00 each)</span>
+									</span>
+									<span class=" d-none text-secondary f-13"><span class="f-13">MSRP: $220.00</span>&nbsp;<span>($220.00 each)</span></span>
+								</div>
+												
+											</div>
+											
+										</div>
+									</div>
+
+								</div>		
+							</div>
+							
+							<div class="row m-0 rounded-0  mt-3 position-relative">
+								<div class="col-lg-12  row m-0 pl-md-3 border-bottom pr-0 pl-2" style="min-height: 170px">
+									<div class="row m-0 col-12 p-0">
+										<div class="col-3 product-img bg-white bg-remove row align-items-center m-0 pl-2 pr-2 mb-3" style="min-width: 111px">
+											<img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/714c5QKef-L._AC_SR500,500_.jpg" alt="">
+										</div>
+										<div class="col-8 p-0 f-14 row m-0">
+											<div class="col-12 pl-2 p-0">
+												<span class="d-block darkblue">Free People</span>
+												<a href="#" class="hover-blue f-bl">Clare Tree</a>
+
+												<div class="mt-1">
+													<span class="d-block">Color: Black</span>
+													<span class="d-block">Size: XS (Women's 0-2)</span>
+													<span class="d-block">Asin: B06XY5CYZW</span>
+												</div>
+												
+												<div class=" pt-2">
+									<span class="f-12  d-block text-secondary"><span class="text-dark f-bl f-13">Sale: </span><span class="redish f-bl f-13">$38.00</span>&nbsp;<span>($165.00 each)</span>
+									</span>
+									<span class=" d-block text-secondary f-13"><span class="f-13">MSRP: $220.00</span>&nbsp;<span>($220.00 each)</span></span>
+								</div>
+												
+											</div>
+											
+										</div>
+									</div>
+
+								</div>		
+							</div>
+						</div>
+				<div class="col-lg-5 order-0 order-lg-1">
+				<div class="mt-3">
+					<h2 class="f-18 mb-3">Estimated Delivery</h2>
+					<div class=" pt-2 pb-2 bg-lightblue border rounded d-flex">
+						<span class=" pl-2 pr-1 mr-2 align-items-center row m-0">
+							<img class="img-fluid min-50" src="https://www.zappos.com/marty-assets/logo.0a7b75426c992bf530960399ed002c32.svg" alt="">
+						</span>
+						<span class="font-weight-normal">
+							<p class="mb-0 f-16 font-weight-bold">Saturday, January 16</p>
+							<span class="f-12 d-block line-height-small">All Zappos customers get FREE Zappos Standard Shipping!</span>	
+						</span>
+						</div>
+						
+						<form class="col-12 f-15 mt-4">
+						<div class="align-items-center row m-0">
+							<input type="radio" name="delivery" checked class="sc-2"><span class="ml-3">Saturday, January 16</span>
+						</div>
+							<span class="d-block ml-4 pl-1 f-14">FREE Zappos Standard Shipping</span>
+						<div class="align-items-center row m-0">
+							<input type="radio" name="delivery" class="sc-2"><span class="ml-3">Saturday, January 12</span>
+						</div>
+							<span class="d-block ml-4 pl-1 f-14">$150.00 Paid Shipping</span>
+						<div class="align-items-center row m-0">
+							<input type="radio" name="delivery" class="sc-2"><span class="ml-3">Tuesday, January 11</span>
+						</div>
+							<span class="d-block ml-4 pl-1 f-14">$25.00 Paid Shipping</span>
+						</form>
+			</div>
+		</div>
+						
+	</div>	
+	<div class="col-12">
+	<div class="col-12 d-block d-md-none rounded p-0 mt-4 f-15">
+		<p><span>Is your checkout experience easy?</span>
+		<span class="ml-2 f-bl underline-space undeline-none"><a href="" class="text-darkgrey underline-none">Yes</a></span>
+		<span class="ml-2 f-bl underline-space undeline-none"><a href="" class="text-darkgrey underline-none">No</a></span>
+		</p>
+	</div>
+		<h2 class="f-20 mt-4 mb-4">Order total: $439.50</h2>
+		<p class="f-13 mb-4">By placing your order, you agree to zappos.com’s <a href="" class="hover-blue text-darkgrey underline-space underline-none">privacy notice</a> and <a href="" class="hover-blue text-darkgrey underline-space underline-none">conditions of use.</a></p>
+		<button class=" pt-2 pb-2 pl-3 pr-3 text-uppercase btn hover-cart bg-cart f-14 font-weight-bold darkgrey col-12">Place your Order</button>
+		<p class="f-13 mt-4 pt-2">
+			*NOTE: Zappos.com LLC is required by law to collect sales tax on orders shipped to specific states. Learn More. Appropriate charges will be added to your merchandise total and displayed for your review prior to checkout (tax displayed on this page may change if you decide to update your shipping address). The sales tax indicated on the checkout form is an estimate. The sales tax ultimately charged to your credit card will be calculated when your credit card charge is authorized and will reflect applicable state and local taxes. Unless otherwise noted, all products are sold by Zappos.com LLC.
+		</p>
+	</div>
+		<!--Left-->
+	</div>
+	
+	<div class="col-lg-4 col-md-5 order-0 order-md-1 mb-5">
+	<div class="div top sticky bg-white">
+	<div class="bg-sand border rounded col-12 pt-4">
+		<button class=" pt-2 pb-2 pl-3 pr-3 text-uppercase btn hover-cart bg-cart f-14 font-weight-bold darkgrey col-12">Place your Order</button>
+		<p class="f-13">By placing your order, you agree to zappos.com’s <a href="" class="hover-blue greenish f-bll text-darkgrey underline-space underline-none">privacy notice</a> and <a href="" class="hover-blue greenish f-bll text-darkgrey underline-space underline-none">conditions of use.</a></p>
+		<div class="col-12 p-0">
+			<h2 class="font-weight-normal text-secondary f-20 pl-2">Order Summary (4 Items)</h2>
+			<div class="col-12 d-flex p-0 font-weight-bold f-14">
+				<div class="col-8 p-0">
+					<p class="mb-1 pb-1">Subtotal:</p>
+				</div>
+				<div class="col-4 text-right p-0">
+					<p class="mb-1 pb-1">$406.00</p>
+				</div>
+			</div>
+			<div class="col-12 d-flex p-0 text-secondary f-14">
+				<div class="col-8 p-0">
+					<p class="mb-1 pb-1">Shpping:</p>
+				</div>
+				<div class="col-4 text-right p-0 border-bottom">
+					<p class="mb-1 pb-1">Free</p>
+				</div>
+			</div>
+			<div class="col-12 d-flex p-0 text-secondary f-14">
+				<div class="col-8 p-0">
+					<p class="mb-1 pb-1">Total Before Tax:</p>
+				</div>
+				<div class="col-4 text-right p-0">
+					<p class="mb-1 pb-1">$406.00</p>
+				</div>
+			</div>
+			<div class="col-12 d-flex p-0 text-secondary f-14 border-bottom">
+				<div class="col-8 p-0">
+					<p class="mb-1 pb-1">Estimated tax to be collected:*</p>
+				</div>
+				<div class="col-4 text-right p-0">
+					<p class="mb-1 pb-1">$34.00</p>
+				</div>
+			</div>
+
+			<div class="col-12 d-flex p-0 font-weight-bolder f-18 pt-3">
+				<div class="col-8 p-0">
+					<p>Order Total:<p>
+				</div>
+				<div class="col-4 text-right p-0">
+					<p>$44.00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 bg-sand pointer rounded mt-3 border">
+		<h2 class="d-flex f-18 align-items-center drop-button mt-2">
+		<span class="f-20 p-2 op-8 font-weight-normal">Apply Gift Card or Promo Code</span>
+		<span class="text-secondary op-4 drop-icon ml-auto"><i class="fas fa-caret-down ii ml-1"></i></span>
+		</h2>
+		<form action="" class="row m-0 mb-3 drop-list" style="display: none">
+		<div class="col-6 p-0 pl-2">
+			<input type="text" class=" col-12 pl-3 pr-3 p-2 border border-bold rounded" placeholder="Enter Code" required>		
+		</div>
+		<div class="col-6 p-0 pl-2">
+			<button class="col-12 pl-3 pr-3 p-2 f-14 btn rounded btn-outline-darkblue text-uppercase font-weight-bold">Apply</button>
+		</div>
+		</form>
+	</div>	
+			
+		<div class="col-12 bg-sand pointer rounded mt-3 border">
+		<h2 class="d-flex f-18 align-items-center drop-button mt-2">
+		<div class=" pt-2 pb-2 bg-sand d-flex">
+						<span class=" pl-2 mr-2 align-items-center row">
+							<img class="img-fluid min-35" src="../assets/gift.svg" alt="">
+						</span>
+						<span class="font-weight-normal">
+							<p class="mb-1 f-20 op-8">Add a FREE Gift Message
+								<span class="f-12 d-block">Includes a FREE Gift Receipt</span>
+							</p>
+							
+						</span>
+		</div>
+		<span class="text-secondary op-4 drop-icon ml-auto"><i class="fas fa-caret-down ii ml-1"></i></span>
+		</h2>
+		<form action="" class="row m-0 mb-3 drop-list"  style="display: none">
+		<div class="col-12 p-0 pl-2">
+		<p class="f-12 mb-1"><span class="d-block">A Gift From:</span><span class="font-weight-bolder d-block">Zubair Qureshi</span></p>
+			<label for="gift-message" class="f-14 d-flex"><span>Add a Gift Message</span><span class="ml-auto">240 Characters &bull; 9 lines</span></label>
+<textarea class="col-12 p-2 border-bold rounded" id="gift-message" name="gift-message" rows="4">
+  </textarea>		
+		</div>
+		<div class="col-12 p-0 pl-2">
+			<button class="col-12 pl-3 pb-2 pt-2 pr-3 f-14 btn rounded btn-outline-darkblue text-uppercase font-weight-bold"><span>Add Gift Message</span> <img src="../assets/gift.svg" class=" ml-1 pb-1" alt=""></button>
+		</div>
+		</form>
+	</div>
+	
+		<div class="col-12 rounded p-0 mt-4 f-15 d-none d-md-block">
+		<p><span>Is your checkout experience easy?</span>
+		<span class="ml-2 f-bl underline-space undeline-none"><a href="" class="text-darkgrey underline-none">Yes</a></span>
+		<span class="ml-2 f-bl underline-space undeline-none"><a href="" class="text-darkgrey underline-none">No</a></span>
+		</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!--Container-->
+	</div>
+	
+	<!---Footer--->
+	<div id="footer"></div>
+
+
+	<!----Footer--->
+	<!-- Optional JavaScript & Slice Carousel -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<!-- jQuery first, then Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!--Sliders Js--->
+	<script src="../js/sliders.js"></script>
+
+	<script>
+		$(document).ready(function() {
+
+			/*** Dont Remove it will update heart color when its span has liked class***/
+			$(function() {
+				heart = $(this);
+				if (heart.hasClass("liked")) {
+					heart.html('<i class="fas fa-heart" aria-hidden="true"></i>');
+				} else {
+					heart.html('<i class="far fa-heart" aria-hidden="true"></i>');
+				}
+			});
+			/*Heart Clicked*/
+			$(".heart-button").click(function() {
+				heart = $(this).find('.heart');
+				if (heart.hasClass("liked")) {
+					heart.html('<i class="far fa-heart" aria-hidden="true"></i>');
+					heart.removeClass("liked");
+				} else {
+					heart.html('<i class="fas fa-heart" aria-hidden="true"></i>');
+					heart.addClass("liked");
+				}
+			});
+			/****/
+	</script>
+
+	<script>
+		$(function() {
+			$("#header").load("../pages/header.html");
+			$("#footer").load("../pages/footer.html");
+			$("#popularcat").load("../pages/popularcat.html");
+			$("#popularitem").load("../pages/popularitem.html");
+			$("#brands").load("../pages/brand.html");
+			$("#recent").load("../pages/recent.html");
+		});
+	</script>
+	<script>
+		$('.drop-button').on("click",function(){
+			$(this).find(".drop-icon").toggleClass("rotate");
+			$(this).siblings(".drop-list").slideToggle();
+		})
+		</script>
+
+</body></html>
